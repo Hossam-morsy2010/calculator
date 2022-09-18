@@ -1,0 +1,42 @@
+/*start body css*/
+body{
+  background-color: rgba(30, 35, 38,0.9) !important;
+}
+/*end body css*/
+/*start result div*/
+.my_input{
+  width: 100%;
+  min-height: 15vh;
+  letter-spacing: 2px !important;
+}
+.my_input:focus{
+  border: none !important;
+  outline: none !important;
+}
+.result {
+  background-color: white;
+  min-height: 7vh;
+}
+/*end result div*/
+/*start buttons section*/
+.my_div{
+  min-height: 10vh;
+  background-color: #1D2325 !important;
+  color: white !important;
+}
+.special{
+  background-color: #5E4BB6 !important;
+}
+.special-2{
+  background-color: #FFC10D !important;
+}
+.my_result_btn {
+  color: white !important;
+}
+.my_reset{
+  color: white !important;
+}
+.my_del{
+  color: white !important;
+}
+/*end buttons section*/

@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--bootstrap css file-->
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <!--main css file-->
+    <link rel="stylesheet" href="css/main.css" />
+    <title>calculator</title>
+  </head>
+  <body>
+    <!--start calculator body-->
+    <section class="container">
+      <main class="row justify-content-center mt-5">
+        <div class="col-3 row mt-5 border border-warning px-0 shadow-lg">
+          <!--start the input screen-->
+          <div class="col-12 p-0 rounded-top">
+            <input
+              type="text"
+              class="border-0 rounded-0 my_input p-1"
+              placeholder="0000"
+              default
+            />
+          </div>
+          <div class="result col-12 py-0 ps-1 fs-3">0000</div>
+          <!--end the input screen-->
+        </div>
+      </main>
+      <main class="row justify-content-center rounded-bottom">
+        <div class="col-3 row text-center p-0 shadow-lg rounded-bottom">
+          <div
+            value="c"
+            class="col-3 pt-3 text-capitalize border border-warning my_reset"
+            data-number="c"
+          >
+            c
+          </div>
+          <div
+            value="00"
+            class="col-3 my_div pt-3 border border-warning"
+            data-number="00"
+          >
+            00
+          </div>
+          <div
+            value="%"
+            class="col-3 my_div pt-3 border border-warning"
+            data-number="%"
+          >
+            %
+          </div>
+          <div
+            value="/"
+            class="col-3 my_div pt-3 border border-warning special"
+            data-number="&div;"
+          >
+            &div;
+          </div>
+          <div
+            value="7"
+            class="col-3 my_div pt-3 border border-warning"
+            data-number="7"
+          >
+            7
+          </div>
+          <div
+            value="8"
+            class="col-3 my_div pt-3 border border-warning"
+            data-number="8"
+          >
+            8
+          </div>
+          <div
+            value="9"
+            class="col-3 my_div pt-3 border border-warning"
+            data-number="9"
+          >
+            9
+          </div>
+          <div
+            value="*"
+            class="col-3 my_div pt-3 border border-warning special"
+            data-number="x"
+          >
+            x
+          </div>
+          <div
+            value="4"
+            class="col-3 my_div pt-3 border border-warning"
+            data-number="4"
+          >
+            4
+          </div>
+          <div
+            value="5"
+            class="col-3 my_div pt-3 border border-warning"
+            data-number="5"
+          >
+            5
+          </div>
+          <div
+            value="6"
+            class="col-3 my_div pt-3 border border-warning"
+            data-number="6"
+          >
+            6
+          </div>
+          <div
+            value="-"
+            class="col-3 my_div pt-3 border border-warning special"
+            data-number="-"
+          >
+            -
+          </div>
+          <div
+            value="1"
+            class="col-3 my_div pt-3 border border-warning"
+            data-number="1"
+          >
+            1
+          </div>
+          <div
+            value="2"
+            class="col-3 my_div pt-3 border border-warning"
+            data-number="2"
+          >
+            2
+          </div>
+          <div
+            value="3"
+            class="col-3 my_div pt-3 border border-warning"
+            data-number="3"
+          >
+            3
+          </div>
+          <div
+            value="+"
+            class="col-3 my_div pt-3 border border-warning special"
+            data-number="+"
+          >
+            +
+          </div>
+          <div
+            value="0"
+            class="col-3 my_div pt-3 border border-warning"
+            data-number="0"
+          >
+            0
+          </div>
+          <div
+            value="."
+            class="col-3 my_div pt-3 border border-warning"
+            data-number="."
+          >
+            .
+          </div>
+          <div
+            value="del"
+            class="col-3 pt-3 border border-warning my_del"
+            data-number="del"
+          >
+            del
+          </div>
+          <div
+            value="="
+            class="col-3 pt-3 border border-warning special-2 my_result_btn"
+            data-number="="
+          >
+            =
+          </div>
+        </div>
+      </main>
+    </section>
+    <!--end calculator body-->
+    <!--bootstrap js files-->
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <!--main js file-->
+    <script src="js/main.js"></script>
+  </body>
+</html>
